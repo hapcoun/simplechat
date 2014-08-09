@@ -12,6 +12,7 @@ class Chat_model extends CI_Model {
         $this->db->from('chat');
         $this->db->join('user', 'user.id = chat.user_id');
         $this->db->limit(100);
+        $this->db->order_by("date", "asc");
         $query = $this->db->get();
         return $query->result_array();
     }

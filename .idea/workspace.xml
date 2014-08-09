@@ -26,7 +26,7 @@
       <file leaf-file-name="chat.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="860" selection-end="860" vertical-scroll-proportion="-13.730769" vertical-offset="204" max-vertical-offset="884">
+            <state line="33" column="5" selection-start="860" selection-end="860" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="user_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="-11.384615" vertical-offset="146" max-vertical-offset="714">
+            <state line="37" column="1" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-18.576923" vertical-offset="146" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="chat_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/chat_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="630" selection-end="630" vertical-scroll-proportion="0.6566901" vertical-offset="1" max-vertical-offset="595">
+            <state line="14" column="40" selection-start="411" selection-end="411" vertical-scroll-proportion="0.4190141" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -140,12 +140,10 @@
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/models/user_model.php" />
         <option value="$PROJECT_DIR$/application/modules/Chat_modules.php" />
         <option value="$PROJECT_DIR$/chat-server.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/application/views/view_user.php" />
-        <option value="$PROJECT_DIR$/application/models/chat_model.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/application/modules/Rchat.php" />
@@ -154,6 +152,8 @@
         <option value="$PROJECT_DIR$/application/views/view_chat.php" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/application/controllers/chat.php" />
+        <option value="$PROJECT_DIR$/application/models/user_model.php" />
+        <option value="$PROJECT_DIR$/application/models/chat_model.php" />
       </list>
     </option>
   </component>
@@ -525,6 +525,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="860" selection-end="860" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/view_chat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="54" selection-start="529" selection-end="529" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="663">
@@ -532,23 +539,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="860" selection-end="860" vertical-scroll-proportion="-13.730769" vertical-offset="204" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="-11.384615" vertical-offset="146" max-vertical-offset="714">
+        <state line="37" column="1" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-18.576923" vertical-offset="146" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/chat_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="630" selection-end="630" vertical-scroll-proportion="0.6566901" vertical-offset="1" max-vertical-offset="595">
+        <state line="14" column="40" selection-start="411" selection-end="411" vertical-scroll-proportion="0.4190141" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
