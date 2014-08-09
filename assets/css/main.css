@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    position: relative;
+}
+
+.header {
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
+}
+
+#chat_window{
+    margin: auto;
+    width: 600px;
+    height: auto;
+    min-height: 200px;
+    border-radius: 10px;
+    background-color: skyblue;
+    padding: 10px 10px;
+}
+
+#add-new-message{
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    background-color: skyblue;
+    padding: 5px 10px;
+}
+
+#add-new-message input{
+    color: white;
+    background-color: skyblue;
+    border: none;
+    width: 500px;
+}
+
+.message{
+    color: palevioletred;
+}
+
+.my_message{
+    color: #ffffff;
+}
+
+.date{
+    color: gray;
+}
+
+.username{
+    color: blue;
+}
+
+.row{
+    text-align: left;
+}
+
+#authorize{
+    padding: 5px;
+    width: 100px;
+    background-color: skyblue;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login{
+    margin-top: 200px;
+}
+
+.login input{
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.logout{
+    padding: 10px;
+}
+
+.logout span{
+    cursor: pointer;
+    color: skyblue;
+}
+
+.logout span:hover{
+    color: red;
+}
