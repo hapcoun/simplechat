@@ -18,6 +18,7 @@ class Chat_model extends CI_Model {
 
     public function add_new_message($message){
         $session_data = $this->session->userdata('logged_in');
+        date_default_timezone_set( 'Europe/Moscow' );
         $data = array(
             'text' => $message,
             'date' => date('Y-m-d H:i:s'),

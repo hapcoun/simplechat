@@ -19,6 +19,7 @@ class User_model extends CI_Model {
         }
         else
         {
+            date_default_timezone_set( 'Europe/Moscow' );
             $data = array(
                 'username' => $username ,
                 'date' => date('Y-m-d')
