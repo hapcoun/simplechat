@@ -11,8 +11,6 @@ class Rchat implements MessageComponentInterface {
     }
 
     public function onOpen(ConnectionInterface $conn) {
-//        $user = $this->session->userdata('logged_in');
-//        $conn->user = $user;
         $this->clients->attach($conn);
 
         $this->clients->attach($conn);
@@ -24,15 +22,10 @@ class Rchat implements MessageComponentInterface {
         echo sprintf('Connection %d sending message "%s" to %d other connection%s' . "\n"
             , $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');
 
-        $message = [
-            'text' => $msg,
-            'user' => $from->user,
-        ];
-
         foreach ($this->clients as $client) {
             if ($from !== $client) {
 
-                $client->send($message);
+                $client->send($msg);
             }
         }
     }

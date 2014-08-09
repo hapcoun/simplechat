@@ -9,7 +9,7 @@ $('#add-new-message').submit(function(){
                 success: function(data){
                     $('#add-new-message input[name=new-message]').val('');
                     $('<div class="row"><span class="date">'+data.date+'</span> <span class="my_message">'+data.text+'</span></div>').appendTo('#chat_window').hide().fadeIn();
-                    conn.send(JSON.stringify({'type':'message', 'data':data}));
+                    conn.send(JSON.stringify(data));
                     $(document).scrollTop($(document).height());
                 }
         });
@@ -25,13 +25,6 @@ conn.onopen = function(e) {
 
 conn.onmessage = function(e) {
     var obj = JSON.parse(e.data);
-    switch (obj.type){
-        case 'user':
-
-            break;
-        case 'message':
-            $('<div class="row"><span class="date">'+obj.data.date+'</span> <span class="username">'+obj.data.username+'</span> <span class="message">'+obj.data.text+'</span></div>').appendTo('#chat_window').hide().fadeIn();
-            $(document).scrollTop($(document).height());
-            break;
-    }
+    $('<div class="row"><span class="date">'+obj.date+'</span> <span class="username">'+obj.username+'</span> <span class="message">'+obj.text+'</span></div>').appendTo('#chat_window').hide().fadeIn();
+    $(document).scrollTop($(document).height());
 };
