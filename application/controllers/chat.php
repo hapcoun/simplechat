@@ -30,8 +30,8 @@ class Chat extends CI_Controller {
     public function logout()
     {
         $this->session->unset_userdata('logged_in');
-        session_destroy();
-        redirect('view_user', 'refresh');
+//        session_destroy();
+        redirect('user', 'refresh');
     }
 
     public function add_new_message(){

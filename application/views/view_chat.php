@@ -10,7 +10,7 @@
     <div class="header">
         <h1>Просто ЧАТ</h1>
     </div>
-    <div class="logout"><span href="chat/logout">Выйти</span></div>
+    <div class="logout"><a href="chat/logout">Выйти</a></div>
     <div id="users-list">
 
     </div>

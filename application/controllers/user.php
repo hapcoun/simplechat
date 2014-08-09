@@ -45,7 +45,6 @@ class User extends CI_Controller {
         }
         else
         {
-
             redirect('chat', 'refresh');
         }
     }

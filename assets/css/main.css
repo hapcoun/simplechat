@@ -78,11 +78,11 @@ body{
     padding: 10px;
 }
 
-.logout span{
+.logout a{
     cursor: pointer;
     color: skyblue;
 }
 
-.logout span:hover{
+.logout a:hover{
     color: red;
 }
