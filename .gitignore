@@ -16,3 +16,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 /.idea/
 composer.lock
+env_config.php

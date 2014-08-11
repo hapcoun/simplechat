@@ -48,10 +48,12 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'simplechat';
+include(FCPATH . 'env_config.php');
+
+$db['default']['hostname'] = $env_array['database']['hostname'];
+$db['default']['username'] = $env_array['database']['username'];
+$db['default']['password'] = $env_array['database']['password'];
+$db['default']['database'] = $env_array['database']['database'];
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
